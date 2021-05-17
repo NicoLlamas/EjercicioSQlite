@@ -12,13 +12,23 @@ import ventanas.VentanaEmple;
 import ventanas.VerdatosEmple;
 
 
+
+
 public class Principal extends JFrame implements ActionListener{
+	
+	
 
 	private static final long serialVersionUID = 1L;
     private JButton b1,b2,b3,b4; 
+    
+    
       
 	public Principal() {
 	
+		System.out.println("Este es el primer mensaje por consola");
+		System.out.println("Este es el segundo mensaje por consola");
+		
+		
 	 setTitle("Ventana INICIAL.");
      setLayout(null);
 	 setSize(450, 250);
